@@ -1,16 +1,237 @@
 {
-  "posts":[
+  "decks": [
     {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
+      "id": 1,
+      "name": "Rendering in Reactd",
+      "description": "React's component structure allows for quickly building a complex web application that relies on DOM manipulation?"
+    },
+    {
+      "name": "React Router",
+      "description": "React Router is a collection of navigational components that compose declaratively with your application.",
+      "id": 2
+    },
+    {
+      "name": "Spanish 101",
+      "description": "Learn Spanish",
+      "id": 4
+    },
+    {
+      "name": "Spanish Alphabet",
+      "description": "Ella needs to practice sounds",
+      "id": 5
     }
   ],
-  "comments" : [
+  "cards": [
     {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
+      "id": 1,
+      "front": "Differentiate between Real DOM and Virtual DOM.hh",
+      "back": "Virtual DOM updates are faster but do not directly update the HTML.",
+      "deckId": 1,
+      "name": "Differentiate between Real DOM and Virtual DOM.j"
+    },
+    {
+      "id": 2,
+      "front": "How do you modify the state of a different React component?",
+      "back": "Not at all! State is visible to the component only.",
+      "deckId": 1
+    },
+    {
+      "id": 3,
+      "front": "How do you pass data 'down' to a React child component?",
+      "back": "As properties or props",
+      "deckId": 1
+    },
+    {
+      "front": "What path will match the follow Route?\n<Route>\n  <NotFound />\n</Route>",
+      "back": "All paths. A route with no path matches all URL's",
+      "deckId": 2,
+      "id": 4
+    },
+    {
+      "front": "What does <Switch> do?",
+      "back": "Renders the first matching child <Route> ",
+      "deckId": 2,
+      "id": 5
+    },
+    {
+      "front": "gg",
+      "back": "hh",
+      "deckId": 1,
+      "id": 11
+    },
+    {
+      "front": "a",
+      "back": "ah",
+      "deckId": 5,
+      "id": 12
+    },
+    {
+      "front": "b",
+      "back": "bay",
+      "deckId": 5,
+      "id": 13
+    },
+    {
+      "front": "c",
+      "back": "say",
+      "deckId": 5,
+      "id": 14
+    },
+    {
+      "front": "d",
+      "back": "day",
+      "deckId": 5,
+      "id": 15
+    },
+    {
+      "front": "e",
+      "back": "ay",
+      "deckId": 5,
+      "id": 16
+    },
+    {
+      "front": "f",
+      "back": "effay",
+      "deckId": 5,
+      "id": 17
+    },
+    {
+      "front": "g",
+      "back": "hay",
+      "deckId": 5,
+      "id": 18
+    },
+    {
+      "front": "h",
+      "back": "ach-ay",
+      "deckId": 5,
+      "id": 19
+    },
+    {
+      "front": "i",
+      "back": "ee",
+      "deckId": 5,
+      "id": 20
+    },
+    {
+      "front": "j",
+      "back": "hota",
+      "deckId": 5,
+      "id": 21
+    },
+    {
+      "front": "k",
+      "back": "ka",
+      "deckId": 5,
+      "id": 22
+    },
+    {
+      "front": "l",
+      "back": "el-lay",
+      "deckId": 5,
+      "id": 23
+    },
+    {
+      "front": "ll",
+      "back": "ay-yay",
+      "deckId": 5,
+      "id": 24
+    },
+    {
+      "front": "m",
+      "back": "eh-may",
+      "deckId": 5,
+      "id": 25
+    },
+    {
+      "front": "n",
+      "back": "eh-nay",
+      "deckId": 5,
+      "id": 26
+    },
+    {
+      "front": "o",
+      "back": "o",
+      "deckId": 5,
+      "id": 27
+    },
+    {
+      "front": "p",
+      "back": "pay",
+      "deckId": 5,
+      "id": 28
+    },
+    {
+      "front": "q",
+      "back": "koo",
+      "deckId": 5,
+      "id": 29
+    },
+    {
+      "front": "r",
+      "back": "er-ay",
+      "deckId": 5,
+      "id": 30
+    },
+    {
+      "front": "rr",
+      "back": "er-ray",
+      "deckId": 5,
+      "id": 31
+    },
+    {
+      "front": "s",
+      "back": "es-say",
+      "deckId": 5,
+      "id": 32
+    },
+    {
+      "front": "t",
+      "back": "tay",
+      "deckId": 5,
+      "id": 33
+    },
+    {
+      "front": "u",
+      "back": "ooh",
+      "deckId": 5,
+      "id": 34
+    },
+    {
+      "front": "v",
+      "back": "vay",
+      "deckId": 5,
+      "id": 35
+    },
+    {
+      "front": "w",
+      "back": "do-blay vay",
+      "deckId": 5,
+      "id": 36
+    },
+    {
+      "front": "x",
+      "back": "ay-kees",
+      "deckId": 5,
+      "id": 37
+    },
+    {
+      "front": "y",
+      "back": "e-gree-ay-ga",
+      "deckId": 5,
+      "id": 38
+    },
+    {
+      "front": "z",
+      "back": "say-ta",
+      "deckId": 5,
+      "id": 39
+    },
+    {
+      "front": "ñ",
+      "back": "en-nay",
+      "deckId": 5,
+      "id": 40
     }
   ]
 }
